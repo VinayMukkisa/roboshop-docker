@@ -40,7 +40,7 @@ services:
       - redis
   mysql:
     build:
-      context: ./cart
+      context: ./mysql
       dockerfile: Dockerfile
     image: mysql:v1
     container_name: mysql
